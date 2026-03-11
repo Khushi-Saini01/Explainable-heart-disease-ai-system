@@ -29,7 +29,7 @@ st.markdown("Clinical-grade predictive modeling with Explainable AI + Calibratio
 # =========================================================
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\saini\OneDrive\Documents\AI and ML\research\heart.csv")
+    df = df = pd.read_csv("heart.csv")
     df = pd.get_dummies(df, drop_first=True).astype(float)
     return df
 
@@ -315,4 +315,5 @@ elif page == "📁 Batch High-Risk Patients":
     high_risk = df_results[df_results["PredictedRisk"] > 0.7]
 
     st.metric("High-Risk Patients (>70%)", len(high_risk))
+
     st.dataframe(high_risk.sort_values("PredictedRisk", ascending=False).head(20))
