@@ -1,10 +1,10 @@
-🫀 Heart Disease AI Pro v4
+#🫀 Heart Disease AI Pro v4
 
 Clinical-Grade AI Dashboard for Heart Disease Risk Prediction & Explainable Decision Support
 
 This project is an advanced AI-powered heart disease risk intelligence system, combining multiple machine learning models, explainable AI (SHAP & LIME), and clinical decision support. It is designed for researchers, clinicians, and data enthusiasts to understand, predict, and visualize cardiovascular risk in patients.
 
-🔍 Features
+#🔍 Features
 1. Multi-Model Risk Prediction
 
 Implements Logistic Regression, Random Forest, SVM, Neural Network, and XGBoost.
@@ -47,7 +47,7 @@ Risk categories: Low → Critical Risk with actionable guidance.
 
 Designed to integrate seamlessly into research workflows or clinical pilot studies.
 
-🛠️ Technologies Used
+#🛠️ Technologies Used
 
 Python 3.10+
 
@@ -61,7 +61,7 @@ Web Dashboard: Streamlit
 
 Data Handling: pandas, numpy
 
-🚀 Installation & Setup
+#🚀 Installation & Setup
 
 Clone the repository:
 
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 Run the Streamlit dashboard:
 
 streamlit run streamlit_app.py
-🧠 How It Works
+#🧠 How It Works
 
 Load dataset (heart.csv) and preprocess features.
 
@@ -97,7 +97,7 @@ Enable what-if simulations to test potential interventions.
 
 Provide batch analysis for high-risk patient identification.
 
-📊 Dashboard Pages
+#📊 Dashboard Pages
 Page	Features
 🏠 Overview	Dataset preview, population risk distribution
 🌍 Global Explainability	SHAP global feature importance
@@ -122,7 +122,7 @@ Decision curve analysis
 
 SHAP interaction plots for top features
 
-🎯 Target Users
+#🎯 Target Users
 
 Cardiologists & healthcare professionals
 
@@ -132,7 +132,7 @@ Researchers in cardiovascular risk modeling
 
 ML enthusiasts exploring explainable AI in healthcare
 
-⚡ Future Enhancements
+#⚡ Future Enhancements
 
 Integration with real-time EHR systems.
 
@@ -142,7 +142,7 @@ Automated risk stratification alerts for high-risk patients.
 
 Incorporate longitudinal patient data for predictive modeling over time.
 
-📁 Dataset
+# 📁 Dataset
 
 Source: Heart Disease Dataset CSV
 
@@ -150,7 +150,7 @@ Features include demographics, vitals, lab results, and lifestyle indicators.
 
 Target: HeartDisease (binary classification)
 
-📌 References
+# 📌 References
 
 SHAP: Lundberg & Lee, 2017
 
