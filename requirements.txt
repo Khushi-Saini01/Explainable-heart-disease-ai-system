@@ -1,9 +1,9 @@
+streamlit
 numpy
 pandas
 scikit-learn
+matplotlib
+seaborn
 xgboost
 shap
 lime
-matplotlib
-seaborn
-streamlit
