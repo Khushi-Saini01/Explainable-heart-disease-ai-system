@@ -24,7 +24,7 @@ import seaborn as sns
 # =========================================================
 # 2. LOAD DATASET
 # =========================================================
-df = pd.read_csv(r"C:\Users\saini\OneDrive\Documents\AI and ML\research\heart.csv")
+df = pd.read_csv("heart.csv")
 df = pd.get_dummies(df, drop_first=True).astype(float)
 print("\nDataset Preview:")
 print(df.head())
@@ -497,4 +497,5 @@ advanced_results.loc[len(advanced_results)] = {
 }
 
 print("\n=== Final Model Performance Comparison ===")
+
 print(advanced_results)
