@@ -65,7 +65,7 @@ Data Handling: pandas, numpy
 
 Clone the repository:
 
-git clone https://github.com/yourusername/HeartDiseaseAIPro.git
+git clone : https://explainable-heart-disease-ai-system-csmriimqugmna2myoim68v.streamlit.app
 cd HeartDiseaseAIPro
 
 Install dependencies:
