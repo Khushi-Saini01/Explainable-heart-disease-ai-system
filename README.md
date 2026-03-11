@@ -3,6 +3,15 @@
 Clinical-Grade AI Dashboard for Heart Disease Risk Prediction & Explainable Decision Support
 
 This project is an advanced AI-powered heart disease risk intelligence system, combining multiple machine learning models, explainable AI (SHAP & LIME), and clinical decision support. It is designed for researchers, clinicians, and data enthusiasts to understand, predict, and visualize cardiovascular risk in patients.
+# ⚡ Visualisation:
+<img width="1913" height="803" alt="Screenshot 2026-02-28 120232" src="https://github.com/user-attachments/assets/928b14cd-904f-43c3-a4e3-e7cd59d45676" />
+<img width="1919" height="816" alt="Screenshot 2026-02-28 120356" src="https://github.com/user-attachments/assets/d4ac8bb8-86cb-4e06-9f55-87a8668e212e" />
+
+<img width="1919" height="840" alt="Screenshot 2026-02-28 120614" src="https://github.com/user-attachments/assets/0392425e-5be8-4c22-8adf-de7c16032d02" />
+<img width="1901" height="823" alt="Screenshot 2026-02-28 120635" src="https://github.com/user-attachments/assets/03c9262a-0ed6-4278-bdd5-5a3a3e8785d5" />
+<img width="1919" height="786" alt="Screenshot 2026-02-28 120706" src="https://github.com/user-attachments/assets/09e8b01d-16ee-4ea7-9490-df6d0c5537f2" />
+
+
 
 # 🔍 Features
 1. Multi-Model Risk Prediction
@@ -74,7 +83,7 @@ pip install -r requirements.txt
 
 Run the Streamlit dashboard:
 
-streamlit run streamlit_app.py
+streamlit run Dashboard.py
 # 🧠 How It Works
 
 Load dataset (heart.csv) and preprocess features.
